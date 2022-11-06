@@ -15,7 +15,7 @@ public class KeyBindings {
     private static final String CATEGORY = "X-Ray";
 
     public static KeyMapping toggleXRay = new KeyMapping(I18n.get("xray.config.toggle"), GLFW.GLFW_KEY_BACKSLASH, CATEGORY);
-    public static KeyMapping toggleGui = new KeyMapping(I18n.get("xray.config.open"), GLFW.GLFW_KEY_G, CATEGORY);
+    public static KeyMapping toggleGui = new KeyMapping(I18n.get("xray.config.open"), GLFW.GLFW_KEY_H, CATEGORY);
 
     public static void setup() {
     }
